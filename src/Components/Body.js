@@ -26,7 +26,7 @@ const Body = () => {
     return(
     <>
     {console.log("inside the return statement")}
-     <h3>Body</h3>
+     <h4>Body component</h4>
      <input type="text" value={searchtxt} onChange={(e) => setSearchtxt(e.target.value)} />
      
 
